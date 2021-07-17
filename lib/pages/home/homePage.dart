@@ -42,6 +42,7 @@ class HomePage extends GetView<HomeController> {
               ))),
       floatingActionButton: FloatingActionButton(
         onPressed: controller.updateAll,
+        child: Icon(Icons.replay),
       ),
     );
   }
